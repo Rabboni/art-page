@@ -1,0 +1,153 @@
+* {
+  box-shadow: none;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  height: 100%;
+  background-image: url(img/afrikan\ princess.jpg);
+  /* background-position: center; */
+  background-size: cover;
+}
+.color1 {
+  color: #005477;
+}
+.color2 {
+  color: #d0b59a;
+}
+.bg-color1 {
+  background-color: #005477;
+}
+.bg-color2 {
+  background-color: #d0b59a;
+}
+nav {
+  display: flex;
+  align-content: space-between;
+  /* border-bottom: 1px solid grey; */
+  /* height: 15%; */
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #d0b59a;
+  cursor: pointer;
+}
+.hover-link {
+  text-decoration: none; /* Remove underline for links */
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+.hover-link:hover {
+  color: #005477; /* Color on hover */
+}
+ul {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  margin: 22px 45px 0px 75px;
+}
+li {
+  padding: 0px 65px;
+}
+.logo {
+  width: 110px;
+  height: 110px;
+  margin: 0px 65px 0px 15px;
+}
+.sign-bar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 22px 0px 0px 50px;
+}
+.text {
+  margin-right: 10px;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  width: 75px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.btn-signup {
+  background-color: #005477;
+  color: #d0b59a;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+.btn-signup:hover {
+  background-color: #d0b59a;
+  color: #005477;
+}
+.btn-login {
+  background-color: #d0b59a;
+  color: #005477;
+  transition: color 0.3s ease;
+}
+.btn-login:hover {
+  color: #d0b59a;
+  background-color: #005477;
+}
+.container {
+  /* height: 85%; */
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  margin: 0;
+}
+.maintext {
+  text-align: center;
+  margin: 0px;
+}
+.h2-design {
+  margin: 15px 0px 0px 0px;
+  font-size: 65px;
+}
+.p-design {
+  margin: 0px 0px 70px 0px;
+  font-size: 25px;
+}
+.contents {
+  text-align: center;
+}
+.h3-design {
+  font-size: 35px;
+  margin: 0px 0px 20px 0px;
+}
+.artworks {
+  /* margin: 0px 35px 0px 22px; */
+  display: flex;
+}
+
+.art1 {
+  margin: 0px 15px;
+  height: 300px;
+  width: 300px;
+}
+.about-us {
+  text-align: center;
+}
+.join-btn {
+  text-align: center;
+}
+.btn-join {
+  background-color: #005477;
+  color: #d0b59a;
+  font-family: "Poppins", sans-serif;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  /* width: 150px; */
+  font-size: 40px;
+  padding: 15px;
+  transition: color 0.3s ease;
+}
+.btn-join:hover{
+  background-color: #d0b59a;
+  color: #005477;
+}

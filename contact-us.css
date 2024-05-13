@@ -1,0 +1,106 @@
+* {
+  box-shadow: none;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  height: 100%;
+  background-image: url(img/afrikan\ princess.jpg);
+  /* background-position: center; */
+  background-size: cover;
+}
+.color1 {
+  color: #005477;
+}
+.color2 {
+  color: #d0b59a;
+}
+.bg-color1 {
+  background-color: #005477;
+}
+.bg-color2 {
+  background-color: #d0b59a;
+}
+nav {
+  display: flex;
+  align-content: space-between;
+  /* border-bottom: 1px solid grey; */
+  /* height: 15%; */
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #d0b59a;
+  cursor: pointer;
+}
+.hover-link {
+  text-decoration: none; /* Remove underline for links */
+  transition: color 0.3s ease; /* Transition effect for color change */
+}
+.hover-link:hover {
+  color: #005477; /* Color on hover */
+}
+.logo {
+  width: 115px;
+  height: 115px;
+  margin: 0px 100px 0px 15px;
+}
+.sign-bar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 22px 0px 0px 50px;
+}
+.text {
+  margin-right: 10px;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  width: 85px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  /* height: 85%; */
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  margin: 0;
+}
+.about-us {
+  /* text-align: center; */
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 30px;
+}
+.about-us-list {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  margin: 22px 50px 0px 120px;
+  /* padding: 15px; */
+}
+.li-about-us {
+  padding: 0px 80px;
+}
+.about-us-content {
+  padding: 15px;
+}
+.h2-design {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.p-design {
+  font-size: 25px;
+  margin-top: 0;
+}
+.h3-design {
+  font-size: 18px;
+  margin-top: 0;
+}
